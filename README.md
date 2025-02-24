@@ -28,12 +28,18 @@ Use keypoints in your hand, arm and upper body to while a person is speaking in 
 
 ## ASL/Robot Command Examples
 - Stop
-![alt text](
-
+![My Image](Stop.png)
 - Start
+![My Image](Start.png)
 - Down
+![My Image](down.png)
 - Up
+![My Image](up.png)
 - Left
+![My Image](left.png)
 - Right
+![My Image](right.png)
 - Open (Gripper)
+![My Image](open.png)
 - Close (Gripper)
+![My Image](close.png)
