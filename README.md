@@ -28,6 +28,8 @@ Use keypoints in your hand, arm and upper body to while a person is speaking in 
 
 ## ASL/Robot Command Examples
 - Stop
+![alt text](
+
 - Start
 - Down
 - Up
@@ -35,4 +37,3 @@ Use keypoints in your hand, arm and upper body to while a person is speaking in 
 - Right
 - Open (Gripper)
 - Close (Gripper)
-- Reset
