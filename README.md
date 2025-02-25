@@ -46,42 +46,48 @@ Use keypoints in your hand, arm and upper body to while a person is speaking in 
 
 ---
 
-*NOTE TO STUDENTS:  This is a template for your **proposal**.  Items wrapped inside `{}` should be replaced accordingly.*
 
-*Your updated proposal document (this file) is due on Friday, February 28, by 5:00pm.*
-
-**Please delete this line, and the comments above.**
-
---- 
-
-# {Provide a Project Title Here}
+# ASL to Robot Commands
 
 Team Members:
-- {Member 1 Name}, {Member 1 email}
-- {Member 2 Name}, {Member 2 email}
+- Bianca Burgess, biburges@buffalo.edu
+- Piyush Salian, psalian@buffalo.edu
 
 --- 
 
 ## Project Objective
-{What are you proposing to do?}
+The goal of this project is to capture the keypoints in the hand, arm and upper body while a person is speaking in ASL. This will then get translated into text which will then send commands to a robot. This way a deaf person can interact with the robot and send it commands using computer vision. 
 
 
 ## Contributions
-{What is new/unique/interesting about this project?}
+What is unique about this project is that there are lots of people who have created ASL translator devices. This is the glove that detects your hand position and it is connected to a computer that tells you what the person is signing. With this project, it will allow the person to sign to a screen and the computer vision will pick it up the keypoint for it be sent to the robot for its commands.
 
 
 ## Project Plan
-{How will we do it?  What resources will we use (e.g., specific online materials, specific chapters from a textbook, etc.)?}
 
+### Potential Computer Vision Packages:
+1. MediaPipe
+2. OpenPose
+- Good for full body tracking
+
+### Machine Learning for ASL Recognition
+- TensorFlow
+- PyTorch
+
+### ASL-to-Text Processing
+-NLP models(LSTM/Transformer)
+ - Natural Languauge Processing
+### Robot Communication
+- ROS 2(not sure which robot to use)(simulation or real arm?)
 
 ## Milestones/Schedule Checklist
 {What are the tasks that you need to complete?  Who is going to do them?  When will they be completed?}
-- [x] Complete this proposal document.  *Due Feb. 28*
-- [ ] {add tasks here}
+- [X] Complete this proposal document.  *Due Feb. 28*
+- [ ] 
 - [ ] Create progress report.  *Due April 3*
-- [ ] {add more tasks here}
+- [ ] 
 - [ ] Create final presentation.  *Due May 6*
-- [ ] {you might have some more tasks here}
+- [ ] 
 - [ ] Provide system documentation (README.md).  *Due May 13*
 
 
