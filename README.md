@@ -40,7 +40,9 @@ MediaPipe
 - Open source package by Google that performs hand tracking, pose estimation. This is to be integrated with Tensorflow. Package detects 21 key landmarks per hands and could possibly isolate the hand from the background.
 - Use MediaPipe hand tracking to detect hand landmarks
 - Extract 21 hand landmarks and use a classifier to train certain hand gestures
-  
+
+![My Image](hand_keypoints.png)
+
 ### ASL-to-Text Processing
 NLP models(LSTM/Transformer)
  - Natural Languauge Processing is used to convert ASL
