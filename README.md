@@ -1,6 +1,4 @@
-# Project Proposal
-## Idea
-Use keypoints in your hand, arm and upper body to while a person is speaking in ASL. This will then get translated into text which will then send commands to a robot. This way a deaf person can interact with the robot and send it commands using computer vision.
+
 
 ## Plan
 1. Install software that can be used to identify the keypoints
@@ -8,23 +6,17 @@ Use keypoints in your hand, arm and upper body to while a person is speaking in 
 3. Convert the sign language keypoint configurations into text
 4. Connect the code to a robot to recieve commands
 
-## Software
+# ASL to Robot Commands
 
-### Computer Vision for ASL Recognition
-1. MediaPipe
-2. OpenPose
-- Good for full body tracking
+Team Members:
+- Bianca Burgess, biburges@buffalo.edu
+- Piyush Salian, psalian@buffalo.edu
 
-### Machine Learning for ASL Recognition
-- TensorFlow
-- PyTorch
+--- 
 
-### ASL-to-Text Processing
--NLP models(LSTM/Transformer)
- - Natural Languauge Processing
+## Project Objective
+The goal of this project is to capture the keypoints in the hand, arm and upper body while a person is speaking in ASL. This will then get translated into text which will then send commands to a robot. This way a deaf person can interact with the robot and send it commands using computer vision. 
 
-### Robot Communication
-- ROS 2
 
 ## ASL/Robot Command Examples
 - Stop
@@ -44,20 +36,6 @@ Use keypoints in your hand, arm and upper body to while a person is speaking in 
 - Close (Gripper)
 ![My Image](close.png)
 
----
-
-
-# ASL to Robot Commands
-
-Team Members:
-- Bianca Burgess, biburges@buffalo.edu
-- Piyush Salian, psalian@buffalo.edu
-
---- 
-
-## Project Objective
-The goal of this project is to capture the keypoints in the hand, arm and upper body while a person is speaking in ASL. This will then get translated into text which will then send commands to a robot. This way a deaf person can interact with the robot and send it commands using computer vision. 
-
 
 ## Contributions
 What is unique about this project is that there are lots of people who have created ASL translator devices. This is the glove that detects your hand position and it is connected to a computer that tells you what the person is signing. With this project, it will allow the person to sign to a screen and the computer vision will pick it up the keypoint for it be sent to the robot for its commands.
@@ -66,17 +44,12 @@ What is unique about this project is that there are lots of people who have crea
 ## Project Plan
 
 ### Potential Computer Vision Packages:
-1. MediaPipe
-2. OpenPose
-- Good for full body tracking
-
-### Machine Learning for ASL Recognition
-- TensorFlow
-- PyTorch
+MediaPipe
 
 ### ASL-to-Text Processing
 -NLP models(LSTM/Transformer)
  - Natural Languauge Processing
+
 ### Robot Communication
 - ROS 2(not sure which robot to use)(simulation or real arm?)
 
