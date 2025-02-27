@@ -1,9 +1,3 @@
-## Plan
-1. Install software that can be used to identify the keypoints
-2. Create a list of commands that will need to be transcribed
-3. Convert the sign language keypoint configurations into text
-4. Connect the code to a robot to recieve commands
-
 # ASL to Robot Commands
 
 Team Members:
